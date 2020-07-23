@@ -265,7 +265,7 @@
             <div class="divider is-centered"></div>
             <!-- Title & subtitle -->
             <h2 class="title is-dark is-semibold has-text-centered is-spaced">TIMELINE IITC 2020</h2>
-            <h4 class="subtitle is-6 is-dark has-text-centered is-compact">Seluruh rangkaian kegiatan akan diadakan pada bulan Agustus sampai oktober.</h4>
+            <h4 class="subtitle is-6 is-dark has-text-centered is-compact">Seluruh rangkaian kegiatan akan diadakan pada bulan Agustus sampai Oktober.</h4>
 
             <!-- Content wrapper -->
             <div class="content-wrapper">
@@ -280,28 +280,28 @@
                                     <!-- Event -->
                                     <li>
                                         <a href="#0" data-date="22/08/2019">
-                                            <span>AUG</span>
-                                            <span>20</span>
+                                            <span>Info</span>
+                                            <span></span>
                                         </a>
                                     </li>
                                     <!-- Event -->
                                     <li>
                                         <a href="#0" data-date="28/08/2019">
-                                            <span>SEP</span>
-                                            <span>02</span>
+                                            <span>tanggal</span>
+                                            <span></span>
                                         </a>
                                     </li>
                                     <!-- Event -->
                                     <li>
                                         <a href="#0" data-date="28/09/2019">
-                                            <span>OCT</span>
-                                            <span>12</span>
+                                            <span>akan</span>
+                                            <span></span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#0" data-date="13/10/2019">
-                                            <span>OCT</span>
-                                            <span>13</span>
+                                            <span>hadir</span>
+                                            <span></span>
                                         </a>
                                     </li>
 
@@ -332,12 +332,12 @@
                                         <img src="<?= base_url() ?>assets/app/images/icons/ico/platform-launch.svg" alt="">
                                         <!-- Title & date -->
                                         <div>
-                                            <span class="event-title">Roadshow</span>
-                                            <small> 20 - 29 Agustus 2019</small>
+                                            <span class="event-title">ITEMWEBI</span>
+                                            <small> Agustus 2020</small>
                                         </div>
                                     </div>
                                     <p>
-                                        Kegiatan roadshow pertama kami adakan yang bertempat di SMK Negeri 1 Kebumen dengan materi Motion Graphic, kemudian diikuti dengan SMK Negeri 1 Purwokerto , SMK 1 Bawang, SMK N 1 Kaligondang, SMK Ma'arif NU 1 Ajibarang dan terakhir di SMK N 1 Cilacap pada tanggal 28 Agustus 2019.
+                                        Kegiatan webinar series tentang teknologi diadakan untuk umum sekaligus sebagai pre-event dibukanya IITC 2020.
                                     </p>
                                 </div>
                             </li>
@@ -349,13 +349,13 @@
                                         <img src="<?= base_url() ?>assets/app/images/icons/ico/presale.svg" alt="">
                                         <div>
                                             <span class="event-title">Pembukaan Pendaftaran Perlombaan</span>
-                                            <small>Senin 02 Oktober 2019</small>
+                                            <small> 2020</small>
                                         </div>
                                     </div>
                                     <p>
-                                        Pembukaan Pendaftaran untuk Lomba IT yang akan diadakan pada tanggal 02 September 2019 mendatang. Pendaftaran dapat dilakukan secara online pada website IITF
+                                        Pembukaan Pendaftaran untuk Lomba IT yang akan diadakan pada September mendatang. Pendaftaran dapat dilakukan secara online pada website IITC
                                         atau mendaftar secara offline dengan datang langsung ke stand
-                                        pendaftaran IITF di Universitan Amikom Purwokerto
+                                        pendaftaran IITC di Universitan Amikom Purwokerto
                                     </p>
                                 </div>
                             </li>
@@ -367,11 +367,11 @@
                                         <img src="<?= base_url() ?>assets/app/images/icons/ico/ico.svg" alt="">
                                         <div>
                                             <span class="event-title">Perlombaan</span>
-                                            <small> 12 & 13 Oktober 2019</small>
+                                            <small> Oktober 2019</small>
                                         </div>
                                     </div>
                                     <p>
-                                        Hari Perlombaan yang kami selenggarakan di Universitas AMIKOM Purwokerto.
+                                        Hari Perlombaan beragam kategori yang disediakan.
                                     </p>
                                 </div>
                             </li>
@@ -382,12 +382,12 @@
                                     <div class="title-wrapper">
                                         <img src="assets/app/images/icons/ico/ico-2.svg" alt="">
                                         <div>
-                                            <span class="event-title">Festival</span>
-                                            <small>Minggu 13 Oktober 2019</small>
+                                            <span class="event-title">Awarding</span>
+                                            <small>2020</small>
                                         </div>
                                     </div>
                                     <p>
-                                        Puncak acara IITF 2019 yang diselenggarakan di Pendopo Si Panji Purwokerto.
+                                        Puncak acara IITC 2020, meliputi acara penganugerahan nominasi juara, sminar, dan berbagai acara lainnya.
                                     </p>
                                 </div>
                             </li>
