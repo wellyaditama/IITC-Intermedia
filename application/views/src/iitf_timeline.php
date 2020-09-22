@@ -1,4 +1,4 @@
-     <!-- Pageloader -->
+<!-- Pageloader -->
      <div class="pageloader is-theme"></div>
      <div class="infraloader is-active"></div>
      <div class="roadmap-wrapper">
@@ -32,13 +32,13 @@
              <ul>
                  <li>
                      <div>
-                         <span class="item-title">First event</span>
-                         <time>Informasi taggal menyusul</time>
+                         <span class="item-title">Intermedia Webinar Series</span>
+                         <time>28-29 Agustus 2020</time>
                          <span class="item-content">
-                             <b>Webinar Series</b> <br>
-                             Webinar series merupakan acara pre-main event. Acara diadakan
-                             sebelum dibukanya pendaftaran lomba IITF. Webinar ini bersifat umum
-                             dan gratis untuk sharing pengetahuan dan meningkatkan pemahaman, terutama
+                             
+                             Intermedia Webinar Series (Itemwebi) merupakan acara pre event IITC. Acara diadakan
+                             sebelum dibukanya pendaftaran lomba IT. Webinar ini diselenggarakan 
+                             secara gratis untuk para pelajar, tujuannya untuk berbagi pengetahuan dan meningkatkan pemahaman, terutama
                              dalam bidang teknologi.
 
                          </span>
@@ -47,68 +47,65 @@
                  </li>
                  <li>
                      <div>
-                         <span class="item-title">First Launch</span>
-                         <time>Informasi taggal menyusul</time>
+                         <span class="item-title">Pembukaan Pendaftaran Perlombaan IITC</span> 
+                         <time>7 September 2020</time>
                          <span class="item-content">
-                             <b>Pembukaan Pendaftaran Perlombaan IITC</b> <br>
-                             Pendaftaran dilakukan secara online pada website IITC dengan memilih jenis lomba
+                       
+                             Pendaftaran dilakukan secara online melalui website IITC dengan memilih jenis lomba
                              yang diinginkan dan mengikuti semua alur pendaftaran.
                          </span>
                      </div>
                  </li>
                  <li>
                      <div>
-                         <span class="item-title">Register Deadline</span>
-                         <time>Informasi taggal menyusul</time>
+                         <span class="item-title">Penutupan Pendaftaran</span>
+                         <time>26 September 2020</time>
                          <span class="item-content">
-                             <b>Batas akhir submisi file dan Penutupan Pendaftaran</b><br>
-                             Merupakan waktu terakhir bagi peserta untuk melakukan submisi atau
-                             pengumpulan file yang ingin diikutsertkan dalam perlombaan 
+                             
+                             Batas akhir pendaftaran lomba IT semua kategori. Masa submisi file masih tetap dibuka 
                          </span>
 
                      </div>
                  </li>
                  <li>
                      <div>
-                         <span class="item-title">Event 1</span>
-                         <time>Informasi taggal menyusul</time>
+                         <span class="item-title">Batas Akhir Submit Project</span>
+                         <time>3 Oktober 2020</time>
                          <span class="item-content">
-                             <b>Proses Seleksi</b> <br>
-                             Tim juri akan melakukan penilaian secara kolektif dari tiap-tiap
-                             kategori, serta menentukan nominasi dari masing-masing kategori
-                             yang berhak melaju ke final. 
+                             
+                             Merupakan tenggat waktu bagi peserta untuk melakukan submisi atau pengumpulan file project yang diperlombakan. 
                          </span>
                      </div>
                  </li>
                  <li>
                      <div>
-                         <span class="item-title">Event 2</span>
-                         <time>Informasi taggal menyusul</time>
+                         <span class="item-title">Proses Penjurian</span>
+                         <time>September - 2 Oktober 2020</time>
                          <span class="item-content">
-                             <b>Technical Meeting Finalis</b><br>
-                             Peserta lomba kategori tertentu yang lolos
-                             ke tahap final akan mengikuti technical meeting untuk perlombaan final. 
+                             
+                             Tim juri akan melakukan penilaian setelah peserta mengumpulkan file submisi dari tiap-tiap kategori, 
+                             kemudian hasil penilaian secara kolektif akan diproses untuk menentukan nominasi juara dari masing-masing kategori.
                          </span>
                      </div>
                  </li>
                  <li>
                      <div>
-                         <span class="item-title">Main Event</span>
-                         <time>Informasi taggal menyusul</time>
+                         <span class="item-title">Pengumuman Nominasi</span>
+                         <time>5-9 Oktober 2020</time>
                          <span class="item-content">
-                             <b>Pelaksanaan Final Lomba</b><br>
-                             Finalis melaksanakan perlombaaan final dan mempresentasikan karyanya pada juri. 
+                             
+                             Pemberitahuan peserta yang masuk dalam nominasi juara untuk masing-masing kategori.
                          </span>
                      </div>
                  </li>
                  <li>
                      <div>
-                         <span class="item-title">Closing Event</span>
-                         <time>Informasi taggal menyusul</time>
+                         <span class="item-title">Awarding & Seminar</span>
+                         <time>10 Oktober 2020</time>
                          <span class="item-content">
-                             <b>Awarding</b><br>
-                             merupakan puncak event IITC dengan beragam acara
-                             seru didalamnya, dan penganugerahan hadiah kepada
+                            
+                             Merupakan puncak event IITC dengan beragam acara
+                             di dalamnya, serta penganugerahan penghargaan dan hadiah kepada
                              para nominasi juara.  
                          </span>
                      </div>

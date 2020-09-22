@@ -8,7 +8,7 @@
     <!-- START INPUT DATA  -->
     <div class="column is-6 containerr">
       <h1 class="title">Pendaftaran Team</h1>
-      <h2 class="subtitle">Silakan isi nama team dan tambahkan anggota team Anda disini.</h2>
+      <h2 class="subtitle">Silahkan isi nama team dan tambahkan anggota team Anda disini (tidak termasuk ketua team). Jika Anda mengikuti kompetisi secara solo, maka isilah dengan data Anda pribadi.</h2>
       <!-- Nama team -->
       <div id="warnings" class=""></div>
       <?php //$this->session->flashdata('pesan') 
@@ -92,7 +92,7 @@
               +
               '</div>' +
               '<div class="field">' +
-              '<label class="label">Identitas diri (ekstensi diterima: PDF, DOC, DOCX) maksimal 1 MB</label>' +
+              '<label class="label">Identitas diri (ekstensi diterima: PDF, DOC, DOCX) maksimal 2 MB</label>' +
               '<div class="control">' +
               '<div class="file is-info has-name">' +
               '<label class="file-label">' +
@@ -231,7 +231,7 @@
                 $("#filename" + currentForm).html(namafile);
               } else {
                 alert(
-                  "Ukuran file tersebut terlalu besar. Batas maksimum ukuran file adalah 1 MB"
+                  "Ukuran file tersebut terlalu besar. Batas maksimum ukuran file adalah 2 MB"
                 );
               }
             }
@@ -266,20 +266,20 @@
         <div class="columns">
           <div class="column">
             <br>
-            <a href="#">
-              <i class="fab fa-whatsapp" style="color:black"></i>
-              <p style="color:black">WhatsApp</p>
+            <a href="http://intermediaamikom.org">
+              <i class="fa fa-globe" style="color:black"></i>
+              <p style="color:black">UKM Intermedia</p>
             </a>
           </div>
           <div class="column is-4">
             <a href="#">
               <img style="width:30%;" src="<?= base_url() ?>assets/app/images/logo/logo.png" alt="">
-              <p style="color:black">IITF 2019</p>
+              <p style="color:black">IITC 2020</p>
             </a>
           </div>
           <div class="column">
             <br>
-            <a href="#">
+            <a href="https://www.instagram.com/iitc_intermedia">
               <i class="fab fa-instagram" style="color:black"></i>
               <p style="color:black">Instagram</p>
             </a>

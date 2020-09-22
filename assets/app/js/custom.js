@@ -107,11 +107,11 @@ $(document).ready(function () {
     } else {
       var namafile = e.target.files[0].name;
       var ukurfile = e.target.files[0].size;
-      if (ukurfile <= 1 * Math.pow(2, 20)) {
+      if (ukurfile <= 5 * Math.pow(2, 20)) {
         $("#filename").html(namafile);
       } else {
         alert(
-          "Ukuran file tersebut terlalu besar. Batas maksimum ukuran file adalah 1 MB"
+          "Ukuran file tersebut terlalu besar. Batas maksimum ukuran file adalah 5 MB"
         );
       }
     }
@@ -143,11 +143,11 @@ $(document).ready(function () {
         var ukurfile = e.target.files[0].size;
         i = this.id.slice(9);
         console.log(i);
-        if (ukurfile <= 1 * Math.pow(2, 20)) {
+        if (ukurfile <= 2 * Math.pow(2, 20)) {
           $("#filename" + i).html(namafile);
         } else {
           alert(
-            "Ukuran file tersebut terlalu besar. Batas maksimum ukuran file adalah 1 MB"
+            "Ukuran file tersebut terlalu besar. Batas maksimum ukuran file adalah 2 MB"
           );
         }
       }

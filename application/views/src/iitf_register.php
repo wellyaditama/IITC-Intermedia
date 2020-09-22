@@ -1,4 +1,4 @@
- <style type="text/css">
+<style type="text/css">
 
 .spinner {
   width: 40px;
@@ -70,8 +70,9 @@
 				<center class="title"><h3>Tunggu ya..</h3></center>
 			</div>
 			<div id="modal-sukses" class="card-content">
-				<p>Selamat Kun anda sudah terdaftar</p>
-				<p>Cek kotak masuk email anda untuk mengaktivasi akun</p>
+				<p>Selamat Akun anda sudah terdaftar</p>
+				<p>Cek kotak masuk email anda pada bagian untuk mengaktivasi akun<br>
+				Email mungkin masuk ke SPAM / PROMOSI</p>
 				<p align="right">
             	<button
               		id="btn-oke"
@@ -131,7 +132,7 @@
                                  <input class="material-input" id="p2" type="password" required>
                                  <span class="material-highlight"></span>
                                  <span class="bar"></span>
-                                 <label for="u">Ulang Kata Sandi</label>
+                                 <label for="u">Ulangi Kata Sandi</label>
                              </div>
                          </div>
 
@@ -159,36 +160,36 @@
                  <div class="column is-half-desktop is-full-mobile ico-countdown">
                      <div class="ico-card animated preFadeInUp fadeInUp">
                          <!-- Countdown -->
-                         <div class="buy-title is-centered">
+                         <div class="buy-title is-centered" align="center">
                              Pendaftaran akan berakhir pada
                          </div>
                          <ul id="countdown" class="is-ico">
                              <li id="days">
                                  <div class="timer-number">00</div>
-                                 <div class="label">Days</div>
+                                 <div class="label">Hari</div>
                              </li>
                              <li id="hours">
                                  <div class="timer-number">00</div>
-                                 <div class="label">Hours</div>
+                                 <div class="label">Jam</div>
                              </li>
                              <li id="minutes">
                                  <div class="timer-number">00</div>
-                                 <div class="label">Minutes</div>
+                                 <div class="label">Menit</div>
                              </li>
                              <li id="seconds">
                                  <div class="timer-number">00</div>
-                                 <div class="label">Seconds</div>
+                                 <div class="label">Detik</div>
                              </li>
                          </ul>
                          <!-- Progress bar -->
-                         <div class="progress-block">
+                       <!--   <div class="progress-block"> -->
                              <!-- Tags -->
-                             <div class="progress-tags">
+                            <!-- <div class="progress-tags">
                                  <div>Pendaftaran</div>
                                  <div>Administrasi</div>
                                  <div>Pengumuman</div>
                              </div>
-                             <progress class="progress ico-progress" value="30" max="100">30%</progress>
+                            <progress class="progress ico-progress" value="35" max="100">70%</progress> -->
                          </div>
                      </div>
                  </div>
@@ -212,4 +213,3 @@
  </section>
  <!-- /Landing page Hero -->
  <!-- Core js -->
-

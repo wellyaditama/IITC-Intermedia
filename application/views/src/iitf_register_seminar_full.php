@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="content">
-                    Kuota peserta Seminar UI/UX sudah penuh. Maaf, ya :(
+                    Kuota peserta webinar sudah penuh. Maaf, ya :(
                     <p align="right">
                         <a class="button k-button k-primary raised has-gradient slanted" href="<?= base_url(); ?>">
                             <span class="text">

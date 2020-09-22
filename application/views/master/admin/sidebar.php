@@ -5,7 +5,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Brand -->
-        <a class="navbar-brand pt-0" href="./index.html">
+        <a class="navbar-brand pt-0" href="http://iitc.intermediaamikom.org">
             <img src="<?=base_url()?>assets/admin/img/brand/logo.png" class="navbar-brand-img" alt="...">
         </a>
         <!-- User -->

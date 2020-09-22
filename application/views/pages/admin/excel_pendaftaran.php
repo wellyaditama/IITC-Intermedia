@@ -28,11 +28,11 @@
  
 	<?php
 	header("Content-type: application/vnd-ms-excel");
-	header("Content-Disposition: attachment; filename=Peserta_Lomba_IITF.xls");
+	header("Content-Disposition: attachment; filename=Peserta_Lomba_IITC.xls");
 	?>
  
 	<center>
-		<h3>DAFTAR PESERTA LOMBA<br/>INTERMEDIA INFORMATION TECHNOLOGY FESTIVAL 2019</h3>
+		<h3>DAFTAR PESERTA LOMBA<br/>INTERMEDIA INFORMATION TECHNOLOGY COMPETITION 2020</h3>
 	</center>
  
 	<table border="1">

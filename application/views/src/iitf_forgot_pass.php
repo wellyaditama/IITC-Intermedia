@@ -1,4 +1,4 @@
- <!-- Pageloader -->
+<!-- Pageloader -->
  <div class="pageloader is-theme"></div>
  <div class="infraloader is-active"></div>
  <div class="dark-wrapper">
@@ -15,7 +15,7 @@
                      <div class="navbar-brand">
                          <a href="<?= base_url() ?>" class="navbar-item">
                              <img class="" src="<?= base_url() ?>assets/app/images/logo/logo_iitf.png" alt="">
-                             <span class="brand-name">IITF 2019</span>
+                             <span class="brand-name">IITC 2020</span>
                          </a>
                          <!-- Responsive toggle -->
                          <span class="navbar-burger burger" data-target="cloneNavbarMenu">
@@ -67,7 +67,7 @@
                      <div class="navbar-brand">
                          <a href="<?= base_url() ?>" class="navbar-item">
                              <img class="" src="<?= base_url() ?>assets/app/images/logo/logo_iitf.png" alt="">
-                             <span class="brand-name" style="color:white">IITF 2019</span>
+                             <span class="brand-name" style="color:white">IITC 2020</span>
                          </a>
                          <!-- Responsive toggle -->
                          <span class="navbar-burger burger" data-target="navbarMenu">

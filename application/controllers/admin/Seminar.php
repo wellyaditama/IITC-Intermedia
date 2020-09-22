@@ -30,13 +30,13 @@ class Seminar extends MY_Controller {
             $getInfo = $this->db->select('*')->from("tb_seminar")->where("id_daf", $id)->get()->row();
             
             $config = array(
-                'protocol' => 'smtp',
-                'smtp_host' => 'smtp.gmail.com',
-                            'smtp_crypto' => 'tls',
-                            'smtp_port' => '587',
+                'protocol' => 'mail',
+                'smtp_host' => 'mail.intermediaamikom.org',
+                'smtp_crypto' => 'tls',
+                'smtp_port' => '587',
                 
-                'smtp_user' => 'iitfintermedia@gmail.com', // informasi rahasia ini jangan di gunakan sembarangan
-                'smtp_pass' => 'intermediaiitf2019', // informasi rahasia ini jangan di gunakan sembarangan
+                'smtp_user' => 'iitc@intermediaamikom.org', // informasi rahasia ini jangan di gunakan sembarangan
+                'smtp_pass' => 'Wearefamily2018', // informasi rahasia ini jangan di gunakan sembarangan
                 'mailtype' => 'html',
                 'charset' => 'iso-8859-1',
                 'wordwrap' => TRUE
@@ -72,7 +72,7 @@ class Seminar extends MY_Controller {
             $this->email->set_newline("\r\n");
             $this->email->from($config['smtp_user']);
             $this->email->to($getInfo->email);
-            $this->email->subject('Selamat, Anda Berhasil Menjadi Peserta Seminar UI/UX!');
+            $this->email->subject('Selamat, Anda Berhasil Menjadi Peserta Webinar IITC 2020!');
             $this->email->message($message);
     
             $this->email->send();
@@ -201,13 +201,13 @@ class Seminar extends MY_Controller {
                 $getInfo = $this->db->select('*')->from("tb_seminar")->where("id_daf", $id)->get()->row();
             
                 $config = array(
-                    'protocol' => 'smtp',
-                    'smtp_host' => 'smtp.gmail.com',
-                            'smtp_crypto' => 'tls',
-                            'smtp_port' => '587',
+                    'protocol' => 'mail',
+                    'smtp_host' => 'mail.intermediaamikom.org',
+                    'smtp_crypto' => 'tls',
+                    'smtp_port' => '587',
                     
-                    'smtp_user' => 'iitfintermedia@gmail.com', // informasi rahasia ini jangan di gunakan sembarangan
-                    'smtp_pass' => 'intermediaiitf2019', // informasi rahasia ini jangan di gunakan sembarangan
+                    'smtp_user' => 'iitc@intermediaamikom.org', // informasi rahasia ini jangan di gunakan sembarangan
+                    'smtp_pass' => 'Wearefamily2018', // informasi rahasia ini jangan di gunakan sembarangan
                     'mailtype' => 'html',
                     'charset' => 'iso-8859-1',
                     'wordwrap' => TRUE

@@ -1,0 +1,12 @@
+{
+    "node_app": {
+        "app_mode": "development",
+        "app_status": "started",
+        "app_uri": "node",
+        "config_files": [],
+        "domain": "node.intermediaamikom.org",
+        "env_vars": {},
+        "nodejs_version": "11",
+        "startup_file": "index.js"
+    }
+}

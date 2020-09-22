@@ -48,14 +48,14 @@
 
                         <p><?= $lomba[0]['deskripsi'] ?></p>
 
-                        <blockquote>Tema Perlombaan ini adalah `` <?= $lomba[0]['tema'] ?>.``</blockquote>
+                        <blockquote>Tema Perlombaan : " <?= $lomba[0]['tema'] ?>."</blockquote>
                         <!-- <blockquote>Kategori Lomba ini adalah `` <?= $lomba[0]['kategori'] ?>.``</blockquote> -->
-                        <p>Untuk penjelasan lebih jelas mengenai perlombaan dapat didownload panduan yang berada pada link dibawah.</p>
+                        <p>Untuk penjelasan lebih lanjut mengenai perlombaan, silahkan dilihat pada panduan lomba yang dapat di unduh pada link di bawah.</p>
 
                         <h2>Cara mendaftar</h2>
 
-                        <p>Tata Cara Pendaftaran lengkap dapat dilihat pada guide book yang terdapat pada panduan di akhir halaman ini,
-                            atau bisa langsung klik Tombol daftar dibawah ini.</p>
+                        <p>Tata cara pendaftaran, syarat dan ketentuan lengkap dapat dilihat pada panduan lomba.
+                            Untuk mendaftar, klik tombol dibawah ini.</p>
                         <a href="<?= base_url() ?>daftar" target="_blank" class="button k-button k-primary raised has-gradient is-fat is-bold">
                             <span class="text">Daftar</span>
                             <span class="front-gradient"></span>
@@ -67,7 +67,7 @@
                             $no = 1;
                             foreach ($lomba as $key => $val) { ?>
                                 <li>
-                                    Juara <?= $no++; ?> : Uang Pembinaan + Sertifikat + Trophi
+                                    Juara <?= $no++; ?> : Hadiah Utama + Sertifikat Penghargaan
                                 </li>
                             <?php } ?>
                         </ol>

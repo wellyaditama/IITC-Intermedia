@@ -15,34 +15,35 @@
 
                 <div class="content">
                     <?php if ($htm != "OTS") {?>
-                        Simpan kode berikut untuk digunakan saat melakukan pendaftaran ulang Seminar UI/UX.
+                        Kode pendaftaran kamu : .
                         <center><h3><code><?= $code; ?></code></h3></center>
-                        Lakukan pembayaran HTM <?= $htm; ?> sebesar Rp<?= number_format($biaya, 0, ",", ".") ?>,- ke:<br>
+                     <!--   Lakukan pembayaran HTM <*?= $htm; ?> sebesar Rp<*?= number_format($biaya, 0, ",", ".") ?>,- ke:<br> -->
+                     <b></b>Informasi</b><br> 
                         <ol>
-                            <li>Stand IITF 2019, Lantai 1 Universitas AMIKOM Purwokerto (Jalan Letjend. Pol. Soemarto (Depan SPN) Purwokerto Utara), atau</li>
-                            <li>Transfer ke rekening 002-BRI Nomor Rekening <b>0077-01-100172-50-8</b> a.n. <b>Rahmat Hidayat Fitrianto</b></li>
+                            <li>Kami akan menambahkan nomor kamu ke grup Whatsapp peserta webinar</li>
+                            <li>Link, ID dan Password room Zoom akan kami kirimkan ke grup Whatsapp dan ke alamat email kamu (h-1)</li>
                         </ol>
                         
-                        Lalu, konfirmasi ke salah satu nomor berikut terkait pembayaran dan berikan kode pendaftaran dan bukti pembayarannya:
+                        Untuk pertanyaan, silahkan hubungi contact person berikut:
                         <table>
                             <tr>
-                                <td>Erina Setyawati</td>
+                                <td>Fina Erviana</td>
                                 <td>
-                                    <a href="https://api.whatsapp.com/send?phone=6282211538043">0822-1153-8043</a>
+                                    <a href="https://api.whatsapp.com/send?phone=6282311471826">0823-1147-1826</a>
                                 </td>
                                 <td>
-                                    <a href="tel:+6282211538043" class="button is-primary is-small"><i class="fas fa-phone"></i></a>
-                                    <a href="https://api.whatsapp.com/send?phone=6282211538043" class="button is-primary is-small"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="tel:+6282311471826" class="button is-primary is-small"><i class="fas fa-phone"></i></a>
+                                    <a href="https://api.whatsapp.com/send?phone=6282311471826" class="button is-primary is-small"><i class="fab fa-whatsapp"></i></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Tri Suci Desiana</td>
+                                <td>Gilang</td> 6283842135415
                                 <td>
-                                    <a href="https://api.whatsapp.com/send?phone=6282328691559">0823-2869-1559</a>
+                                    <a href="https://api.whatsapp.com/send?phone=6283842135415">0838-4213-5415</a>
                                 </td>
                                 <td>
-                                    <a href="tel:+6282328691559" class="button is-primary is-small"><i class="fas fa-phone"></i></a>
-                                    <a href="https://api.whatsapp.com/send?phone=6282328691559" class="button is-primary is-small"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="tel:+6283842135415" class="button is-primary is-small"><i class="fas fa-phone"></i></a>
+                                    <a href="https://api.whatsapp.com/send?phone=6283842135415" class="button is-primary is-small"><i class="fab fa-whatsapp"></i></a>
                                 </td>
                             </tr>
                         </table>
@@ -56,8 +57,8 @@
                             </a>
                         </p>
                     <?php } else { ?>
-                        Selamat! Kini Anda dapat mengikuti acara Seminar UI/UX di Pendopo Sipanji Purwokerto.<br>
-                        Karena Anda mendafar pada masa On The Spot, Anda perlu membayar biaya masuk (HTM) sebesar Rp<?= number_format($biaya, 0, ",", ".") ?>,- langsung ke panitia pendaftaran (Divisi IP).
+                        Selamat! Kini Anda dapat mengikuti acara Webinar.<br>
+                      <!--  Karena Anda mendafar pada masa On The Spot, Anda perlu membayar biaya masuk (HTM) sebesar Rp<*?= number_format($biaya, 0, ",", ".") ?>,- langsung ke panitia pendaftaran (Divisi IP). -->
                         <p align="right">
                             <a class="button k-button k-primary raised has-gradient slanted" href="<?= base_url(); ?>">
                                 <span class="text">

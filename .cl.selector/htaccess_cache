@@ -1,0 +1,15 @@
+[/home/intermed/domains/intermediaamikom.org/public_html]
+htaccess_list = /home/intermed/domains/intermediaamikom.org/public_html/cgi-bin/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitf/application/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitf/application/views/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitf/application/views/system/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitf/system/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitf/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitftest/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitftest/application/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitftest/system/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/system/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/application/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/assets/admin/plugins/ckfinder/userfiles/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/node/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/node_test/.htaccess
+
+[/home/intermed/domains/intermediaamikom.org/public_html/iitf]
+htaccess_list = /home/intermed/domains/intermediaamikom.org/public_html/iitf/application/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitf/application/views/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitf/application/views/system/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitf/system/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitf/.htaccess
+
+[/home/intermed/domains/intermediaamikom.org/public_html/iitftest]
+htaccess_list = /home/intermed/domains/intermediaamikom.org/public_html/iitftest/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitftest/application/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/iitftest/system/.htaccess
+
+[/home/intermed/domains/intermediaamikom.org/public_html/keilmuan]
+htaccess_list = 
+
+[/home/intermed/domains/intermediaamikom.org/public_html/node]
+htaccess_list = /home/intermed/domains/intermediaamikom.org/public_html/node/.htaccess,/home/intermed/domains/intermediaamikom.org/public_html/node/node/.htaccess
+

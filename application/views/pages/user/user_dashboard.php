@@ -40,27 +40,27 @@
               <div class="columns">
                 <div class="column">
                   <p>
-                    Nama
+                    Nama Lomba
                   </p>
                 </div>
                 <div class="column is-6">
                   : <?= $lomba->namalomba ?>
                 </div>
               </div>
-              <div class="columns">
+         <!--     <div class="columns">
                 <div class="column">
                   <p>
                     Kategori
                   </p>
                 </div>
                 <div class="column is-6">
-                  : <?= $lomba->kategori ?>
+                  : <?= $lomba->keterangan ?>
                 </div>
-              </div>
+              </div> -->
               <div class="columns">
                 <div class="column">
                   <p>
-                    Keterangan
+                    Kategori
                   </p>
                 </div>
                 <div class="column is-6">
@@ -99,7 +99,7 @@
                   : <?php if ($lomba->status == "active") {
                       echo "<p class='tag is-success'>Aktif</p>";
                     } else {
-                      echo "<p class='tag is-danger'>Tidak Aktif</p>";
+                      echo "<p class='tag is-danger'>Nonaktif</p>";
                     } ?>
                 </div>
               </div>
@@ -139,9 +139,9 @@
               <!-- <br><button class="button is-success" data-target="modal" data->Lakukan Pembayaran</button> -->
               <br><button class="button is-success modal-button" data-target="#myModal" aria-haspopup="true">Lakukan Pembayaran</button>
             <?php }else if($pendaftaran->status=="unactive"){ ?>
-              Terima kasih sudah mengirimkan bukti pembayaran, tunggu 1 * 24 Jam untuk konfirmasi aktif dari admin. Apabila dalam rentang waktu tersebut status masih <b class="tag is-danger">tidak aktif</b> harap menghubungi Contact Person yang ada.
+              Setelah melakukan pembayaran, tunggu 1 * 24 Jam untuk konfirmasi aktif dari admin. Apabila dalam rentang waktu tersebut status masih <b class="tag is-danger">tidak aktif</b> harap menghubungi Contact Person yang ada.
             <?php }else if($pendaftaran->status=="active"){ ?>
-              Selamat anda lolos seleksi finalis perlombaan, dimohon untuk hadir pada tanggal 13 Oktober 2019 untuk melakukan presentasi final ditempat yang sudah ditentukan.
+              Selamat datang...
             <?php } ?>
             <div class="modal" id="myModal">
               <div class="modal-background"></div>
@@ -178,29 +178,7 @@
                         </tr>
                       </table>
                     </div>
-                    <div class="column is-6">
-                      <table class="table is-stripped">
-                        <tr>
-                          <th colspan="2">Transfer ke:</td>
-                        </tr>
-                        <tr>
-                          <td>Nama Bank</th>
-                          <td>002 - Bank Rakyat Indonesia (BRI)</td>
-                        </tr>
-                        <tr>
-                          <td>Atas Nama</th>
-                          <td>Rahmat Hidayat Fitrianto</td>
-                        </tr>
-                        <tr>
-                          <td>Nomor Rekening</th>
-                          <td>0077 - 01 - 100172 - 50 - 8</td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                      </table>
-                    </div>
+                    
                   </div>
                   <div id="progress"></div>
                   <div class="field">
@@ -257,7 +235,7 @@
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong><?= $val['judul'] ?></strong> <small>oleh @admin_iitf</small> <small style="float:right;"><?= $val['tanggal'] ?></small>
+                      <strong><?= $val['judul'] ?></strong> <small>oleh @admin_iitc</small> <small style="float:right;"><?= $val['tanggal'] ?></small>
                       <br>
                       <?= $val['deskripsi'] ?>
                     </p>
@@ -294,20 +272,20 @@
         <div class="columns">
           <div class="column">
             <br>
-            <a href="https://api.whatsapp.com/send?phone=6282326295275" target="_blank">
-              <i class="fab fa-whatsapp" style="color:black"></i>
-              <p style="color:black">WhatsApp</p>
+            <a href="http://intermediaamikom.org" target="_blank">
+              <i class="fa fa-globe" style="color:black"></i>
+              <p style="color:black">UKM Intermedia</p>
             </a>
           </div>
           <div class="column is-4">
             <a href="#">
               <img style="width:30%;" src="<?= base_url() ?>assets/app/images/logo/logo.png" alt="">
-              <p style="color:black">IITF 2019</p>
+              <p style="color:black">IITC 2020</p>
             </a>
           </div>
           <div class="column">
             <br>
-            <a href="https://www.instagram.com/iitf_intermedia/?hl=en" target="_blank">
+            <a href="https://www.instagram.com/iitc_intermedia" target="_blank">
               <i class="fab fa-instagram" style="color:black"></i>
               <p style="color:black">Instagram</p>
             </a>

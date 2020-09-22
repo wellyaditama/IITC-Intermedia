@@ -120,19 +120,19 @@ transform: scale(1.0);
                         <ul id="countdown" class="is-ico">
                             <li id="days">
                                 <div class="timer-number2">00</div>
-                                <div class="label">Days</div>
+                                <div class="label">Hari</div>
                             </li>
                             <li id="hours">
                                 <div class="timer-number2">00</div>
-                                <div class="label">Hours</div>
+                                <div class="label">Jam</div>
                             </li>
                             <li id="minutes">
                                 <div class="timer-number2">00</div>
-                                <div class="label">Minutes</div>
+                                <div class="label">Menit</div>
                             </li>
                             <li id="seconds">
                                 <div class="timer-number2">00</div>
-                                <div class="label">Seconds</div>
+                                <div class="label">Detik</div>
                             </li>
                         </ul>
                         <!-- Progress bar 
@@ -167,4 +167,3 @@ transform: scale(1.0);
 </section>
 <!-- /Landing page Hero -->
 <!-- Core js -->
-

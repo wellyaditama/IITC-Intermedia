@@ -23,14 +23,20 @@
 
         <script type="text/javascript" src="<?= base_url()?>assets/app/parallax.js">
         </script>
+        
+        <!-- SweetAlert -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css">
+
+        
 		<?php if( $page == "dashboard"){?>
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.0/css/bulma.min.css">
 		 
 		  <link rel="stylesheet" type="text/css" href="<?= base_url()?>assets/app/css/user.css">
 		<?php }?>
+        
 
 	
-		
     </head>
     <body>

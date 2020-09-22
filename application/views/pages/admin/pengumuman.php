@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-        IITF Admin Dashboard
+        IITC Admin Dashboard
     </title>
     <?php $this->load->view('assets/admin/stylesheet') ?>
 </head>
@@ -171,7 +171,7 @@
                 <div class="modal-header">
                     <h4 class="modal-title">Hapus Pengumuman</h4>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
+                        <span aria-hidden="true">ï¿½</span>
                     </button>
                 </div>
                 <form action="<?= base_url('admin/pengumuman/hapus') ?>" method="post">

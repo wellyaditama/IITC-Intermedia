@@ -8,15 +8,15 @@
     <!-- pilih lomba -->
     <div class="column is-8 containerr">
       <h1 class="title">Submission</h1>
-      <h2 class="subtitle">Silahkan upload file yang diperlukan sesuai dengan keterangan Guide Book perlombaan, disatukan dalam satu file dengan ekstensi *.zip dan upload surat pernyataan dengan ekstensi PDF.</h2>
+      <h2 class="subtitle">Silahkan upload file yang diperlukan sesuai dengan keterangan Guide Book perlombaan, disatukan dalam satu file dengan ekstensi *.zip atau *.rar dan upload surat pernyataan dengan ekstensi PDF.</h2>
       <?php if (($submit->lampiran_file != "") || ($submit->lampiran_surat != "")) { ?>
-        <div class="notification is-link">Selamat, Anda telah berhasil terdaftar sebagai peserta lomba IITF 2019!<br>Untuk langsung membuka dashboard peserta lomba, <a href="<?= base_url('user/dashboard'); ?>" class="button is-success">Klik disini</a></div>
+        <div class="notification is-link">Selamat, Anda telah berhasil terdaftar sebagai peserta lomba IITC 2020!<br>Untuk langsung membuka dashboard peserta lomba, <a href="<?= base_url('user/dashboard'); ?>" class="button is-success">Klik disini</a></div>
       <?php } ?>
       <div id="warnings" class=""></div>
       <form action="javascript:submission('<?= base_url(); ?>');" method="POST" enctype="multipart/form-data">
         <?php if($lomba->lampiran == "true"){ ?>
         <div class="field">
-          <label class="label">File Perlombaan (ekstensi diterima: ZIP, RAR; Batas Maksimum: 10 MB)</label>
+          <label class="label">File Perlombaan (ekstensi diterima: ZIP, RAR; Batas Maksimum: 50 MB)</label>
           <div class="control">
             <div class="file is-info has-name">
               <label class="file-label">
@@ -76,20 +76,20 @@
         <div class="columns">
           <div class="column">
             <br>
-            <a href="#">
-              <i class="fab fa-whatsapp" style="color:black"></i>
-              <p style="color:black">WhatsApp</p>
+            <a href="http://intermediaamikom.org">
+              <i class="fa fa-globe" style="color:black"></i>
+              <p style="color:black">UKM Intermedia</p>
             </a>
           </div>
           <div class="column is-4">
             <a href="#">
               <img style="width:30%;" src="<?= base_url() ?>assets/app/images/logo/logo.png" alt="">
-              <p style="color:black">IITF 2019</p>
+              <p style="color:black">IITC 2020</p>
             </a>
           </div>
           <div class="column">
             <br>
-            <a href="#">
+            <a href="https://www.instagram.com/iitc_intermedia">
               <i class="fab fa-instagram" style="color:black"></i>
               <p style="color:black">Instagram</p>
             </a>

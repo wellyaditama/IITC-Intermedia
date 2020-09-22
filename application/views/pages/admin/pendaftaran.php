@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-        IITF Admin Dashboard
+        IITC Admin Dashboard
     </title>
     <?php $this->load->view('assets/admin/stylesheet') ?>
 </head>
@@ -32,7 +32,7 @@
                     <div class="card shadow">
                         <div class="card-header border-0">
                         <a style="float:right" href="<?=base_url()?>admin/pendaftaran/export" class="btn btn-success">Export Excel</a>
-                        <h3 class="mb-0">Data Pendaftar Lomba IITF</h3>
+                        <h3 class="mb-0">Data Pendaftar Lomba IITC</h3>
                         </div>
                         <div class="table-responsive">
                             <table class="table align-items-center table-flush">
@@ -128,7 +128,7 @@
                 <div class="modal-header">
                     <h4 class="modal-title">Pilih Status Pendaftaran</h4>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
+                        <span aria-hidden="true">ï¿½</span>
                     </button>
                 </div>
                 <form action="<?= base_url('admin/pendaftaran/ubah_status') ?>" method="post">

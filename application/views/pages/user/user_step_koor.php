@@ -20,7 +20,7 @@
             name="nama"
             class="input <?= (form_error('nama') == "" ? "" : "is-danger"); ?>"
             type="text"
-            placeholder="Isi nama lengkap Anda disini"
+            placeholder="Isi nama lengkap Anda"
             value="<?= $nama ?>"
           />
           <span class="icon is-small is-left">
@@ -31,14 +31,14 @@
       </div>
       <!-- No wa/hp -->
       <div class="field">
-        <label class="label">No Telpon/WA</label>
+        <label class="label">No Telepon/Whatsapp</label>
         <div class="control has-icons-left has-icons-right">
           <input
             id="no_hp"
             name="no_hp"
             class="input"
-            type="text"
-            placeholder="contoh : 08xxxx"
+            type="numeric"
+            placeholder="Contoh: 08xxxx"
             value="<?= $nohp ?>"
           />
           <span class="icon is-small is-left">
@@ -77,7 +77,7 @@
             name="instansi"
             class="input"
             type="text"
-            placeholder="mis : amikom"
+            placeholder="Contoh : Universitas Amikom Purwokerto"
             value="<?= $inst ?>"
           />
           <span class="icon is-small is-left">
@@ -89,7 +89,7 @@
 
       <!-- foto koor -->
       <div class="field">
-        <label class="label">Kartu Identitas (KTP/SIM/Kartu Pelajar) (ekstensi diterima: PDF, DOC, DOCX; Batas maksimum: 2 MB)</label>
+        <label class="label">Kartu Identitas (KTP/KTM/Kartu Pelajar) (ekstensi diterima: PDF, DOC, DOCX; Batas maksimum: 2 MB)</label>
         <div class="control">
           <div class="file is-info has-name">
             <label class="file-label">
@@ -142,7 +142,7 @@
                 Hallo, <?= $nama ?>!
               </p>
               <p class="subtitle is-6"><?php //$email ?></p>
-            Akun kamu sudah terdaftar di IITF, tetapi belum terdaftar sebagai
+            Akun kamu sudah terdaftar di IITC, tetapi belum terdaftar sebagai
             peserta. Untuk itu, kamu perlu mengisi bebrapa data yang diperlukan.
             Ikuti langkah-langkah berikut ini untuk mendaftarkan diri sebagai
             peserta
@@ -175,20 +175,20 @@
 				<div class="columns">
 					<div class="column">
 						<br>
-						<a href="#" >
-						<i class="fab fa-whatsapp" style="color:black"></i>
-						<p style="color:black">WhatsApp</p>
+						<a href="http://intermediaamikom.org" >
+						<i class="fa fa-globe" style="color:black"></i>
+						<p style="color:black">UKM Intermedia</p>
 						</a>
 					</div>
 					<div class="column is-4">
 						<a href="#">
 						<img style="width:30%;" src="<?= base_url() ?>assets/app/images/logo/logo.png" alt="">
-						<p style="color:black">IITF 2019</p>
+						<p style="color:black">IITC 2020</p>
 						</a>
 					</div>
 					<div class="column">
 						<br>
-						<a href="#">
+						<a href="https://wwww.instagram.com/iitc_intermedia">
 						<i class="fab fa-instagram" style="color:black"></i>
 						<p style="color:black">Instagram</p>
 						</a>

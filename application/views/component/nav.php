@@ -19,6 +19,7 @@
             <!-- Menu -->
             <div id="cloneNavbarMenu" class="navbar-menu">
                 <div class="navbar-end">
+ 
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#about">Tentang IITC</a>
@@ -32,9 +33,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                    <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a>
-                    </div>
+                  <!--  <div class="navbar-item is-nav-link">
+                       <a class="seminar is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a> 
+                    </div> -->
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">
@@ -92,9 +93,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                    <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a>
-                    </div>
+                    <!--  <div class="navbar-item is-nav-link">
+                       <a class="seminar is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a> 
+                    </div> -->
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">
@@ -153,9 +154,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                    <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Seminar UI/UX</a>
-                    </div>
+                  <!--  <div class="navbar-item is-nav-link">
+                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Seminar</a>
+                    </div> -->
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">
@@ -212,9 +213,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                    <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a>
-                    </div>
+                    <!--  <div class="navbar-item is-nav-link">
+                       <a class="seminar is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a> 
+                    </div> -->
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">
@@ -271,9 +272,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                    <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a>
-                    </div>
+                    <!--  <div class="navbar-item is-nav-link">
+                       <a class="seminar is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a> 
+                    </div> -->
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">
@@ -328,9 +329,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                    <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a>
-                    </div>
+                    <!--  <div class="navbar-item is-nav-link">
+                       <a class="seminar is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a> 
+                    </div> -->
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">
@@ -386,9 +387,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                    <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a>
-                    </div>
+                    <!--  <div class="navbar-item is-nav-link">
+                       <a class="seminar is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a> 
+                    </div> -->
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">
@@ -443,9 +444,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                    <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a>
-                    </div>
+                    <!--  <div class="navbar-item is-nav-link">
+                       <a class="seminar is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a> 
+                    </div> -->
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">
@@ -496,7 +497,7 @@
                 <span class="nav-item">
                     <a class="button" href="<?= base_url() ?>logout">
                         <span class="icon">
-                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-sign-out"></i>
                         </span>
                         <span>Log Out</span>
                     </a>
@@ -545,7 +546,7 @@
                                 <?php if ($email == null || $email == '') {
                                         echo '<i class="far fa-user-circle"></i> Area Peserta';
                                     } else {
-                                        echo 'Logout';
+                                        echo 'Log Out';
                                     } ?>
                             </span>
                             <span class="front-gradient"></span>
@@ -588,9 +589,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                    <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a>
-                    </div>
+                    <!--  <div class="navbar-item is-nav-link">
+                       <a class="seminar is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a> 
+                    </div> -->
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">
@@ -648,9 +649,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                    <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a>
-                    </div>
+                    <!--  <div class="navbar-item is-nav-link">
+                       <a class="seminar is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a> 
+                    </div> -->
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">

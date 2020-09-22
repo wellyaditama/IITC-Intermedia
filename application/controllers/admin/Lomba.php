@@ -37,7 +37,7 @@ class Lomba extends MY_Controller
                 $ket = $this->input->post('keterangan');
                 $jml = $this->input->post('jumlah');
                 $lam = $this->input->post('lampiran');
-                $n_gb = str_replace(' ', '_', $nama) . "IITF2019";
+                $n_gb = str_replace(' ', '_', $nama) . "-IITC2020";
                 $n_g =  "G-" . $id;
                 $harga = $this->input->post('harga');
                 $nl = $this->input->post('nama_lomba');
@@ -153,7 +153,7 @@ class Lomba extends MY_Controller
                     $jml = 0;
                 }
                 if (!empty($_FILES['gb']['name'])) {
-                    $n_gb = str_replace(' ', '_', $nama) . "IITF2019";
+                    $n_gb = str_replace(' ', '_', $nama) . "-IITC2020";
                     $path = "assets/Guide_book/" . $lomba[0]['guide_book'];
                     if(file_exists($path)){
                         unlink(FCPATH . $path);
