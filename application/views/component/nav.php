@@ -33,9 +33,9 @@
                         <a class="is-centered-responsive is-semibold naver" href="<?= base_url() ?>#timeline">Timeline</a>
                     </div>
                     <!-- Menu item -->
-                  <!--  <div class="navbar-item is-nav-link">
+                    <div class="navbar-item is-nav-link">
                        <a class="seminar is-centered-responsive is-semibold naver" href="<?= base_url() ?>seminar/register">Ikuti Webinar</a> 
-                    </div> -->
+                    </div>
                     <!-- Menu item -->
                     <div class="navbar-item is-nav-link">
                         <a class="is-centered-responsive is-semibold naver" onclick="showWhatsApp();">

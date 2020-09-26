@@ -143,14 +143,14 @@ class App_view extends CI_Controller
         $this->db->where('htm_status', $htm);
         $query = $this->db->get();
         $num = $query->num_rows();
-        if ($num < 75) { // Kuota Anggota
+        if ($num < 15) { // Kuota Anggota
             $code = $this->DataModel->noDaf();
 
-            $nama = $this->input->post('nama');
-            $email = $this->input->post('email');
-            $alamat = $this->input->post('alamat');
-            $nohp = $this->input->post('notelp');
-            $asal = $this->input->post('asal');
+            $nama   = $this->db->escape_str($this->input->post('nama', true));
+            $email  = $this->db->escape_str($this->input->post('email', true));
+            $alamat = $this->db->escape_str($this->input->post('alamat', true));
+            $nohp   = $this->db->escape_str($this->input->post('notelp', true));
+            $asal   = $this->db->escape_str($this->input->post('asal', true));
             
             $this->form_validation->set_rules('nama', 'Nama Lengkap', 'trim|required|min_length[5]|max_length[50]');
             $this->form_validation->set_rules('email', 'Email', 'valid_email|required|min_length[5]|max_length[50]');
@@ -218,16 +218,15 @@ class App_view extends CI_Controller
                                     ->get();
                 if ($eCheck->num_rows() == 0) {
                     $config = array(
-                        'protocol' => 'mail',
-                        'smtp_host' => 'mail.intermediaamikom.org',
-                        'smtp_crypto' => 'tls',
-                        'smtp_port' => '587',
-                        
-                        'smtp_user' => 'iitc@intermediaamikom.org', // informasi rahasia ini jangan di gunakan sembarangan
-                        'smtp_pass' => 'Wearefamily2018', // informasi rahasia ini jangan di gunakan sembarangan
-                        'mailtype' => 'html',
-                        'charset' => 'iso-8859-1',
-                        'wordwrap' => TRUE
+                        'protocol' 		=> 'smtp',
+                        'smtp_host' 	=> 'ssl://smtp.googlemail.com',
+                        // 'smtp_crypto' => 'tls',
+                        'smtp_port' 	=> 465,
+                        'smtp_user' 	=> 'ayoberalih4995@gmail.com', // informasi rahasia ini jangan di gunakan sembarangan
+                        'smtp_pass' 	=> 'VafkMbCE7p8FtXq', // informasi rahasia ini jangan di gunakan sembarangan
+                        'mailtype'      => 'html',
+                        'charset'       => 'iso-8859-1',
+                        'wordwrap'      => TRUE
                     );
             
                     $data['id_daf'] = $code;
@@ -242,7 +241,7 @@ class App_view extends CI_Controller
                     $this->email->set_newline("\r\n");
                     $this->email->from($config['smtp_user']);
                     $this->email->to($email);
-                    $this->email->subject('Konfirmasi Pembayaran acara Webinar IITC 2020');
+                    $this->email->subject('Pemberitahuan acara Webinar IITC 2020');
                     $this->email->message($message);
             
                     $this->email->send();
@@ -253,7 +252,7 @@ class App_view extends CI_Controller
                         "email" => $email,
                         "notelp" => $nohp,
                         "institusi" => $asal,
-                        "status_bayar" => FALSE,
+                        "status_bayar" => TRUE, // karena gratis auto true
                         "status_ulang" => FALSE,
                         "htm_status" => $htm
                     ));

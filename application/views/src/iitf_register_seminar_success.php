@@ -15,9 +15,9 @@
 
                 <div class="content">
                     <?php if ($htm != "OTS") {?>
-                        Kode pendaftaran kamu : .
+                        Kode pendaftaran kamu :
                         <center><h3><code><?= $code; ?></code></h3></center>
-                     <!--   Lakukan pembayaran HTM <*?= $htm; ?> sebesar Rp<*?= number_format($biaya, 0, ",", ".") ?>,- ke:<br> -->
+                       <!-- Lakukan pembayaran HTM <?//= $htm; ?> sebesar Rp <?//= number_format($biaya, 0, ",", ".") ?>,- ke:<br> -->
                      <b></b>Informasi</b><br> 
                         <ol>
                             <li>Kami akan menambahkan nomor kamu ke grup Whatsapp peserta webinar</li>
@@ -37,7 +37,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>Gilang</td> 6283842135415
+                                <td>Gilang</td>
                                 <td>
                                     <a href="https://api.whatsapp.com/send?phone=6283842135415">0838-4213-5415</a>
                                 </td>

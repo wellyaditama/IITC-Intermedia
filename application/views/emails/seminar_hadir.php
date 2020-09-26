@@ -4,7 +4,7 @@
 </head>
 <body>
     <h2>Dear <?= $nama; ?>,</h2>
-    <p>Kami ucapkan terimakasih telah berpartisipasi menjadi Peserta Seminar UI/UX dan hadir di Intermedia Information Technology Festival (IITF) 2019 yang diadakan di Pendopo Sipanji Purwokerto.<br>
+    <p>Kami ucapkan terimakasih telah berpartisipasi menjadi Peserta Seminar dan hadir di Intermedia Information Technology Competition (IITC) 2020 yang diadakan secara daring online melalui aplikasi Zoom.<br>
     Berikut rincian pendaftaran Anda.</p><br>
     <table>
         <tr>

@@ -1,10 +1,10 @@
 <html>
 <head>
-    <title>Selamat, Anda Berhasil Menjadi Peserta Webinar IITC 2020!</title>
+    <title>Selamat, Anda Berhasil Menjadi Peserta Seminar IITC 2020!</title>
 </head>
 <body>
     <h2>Dear <?= $nama; ?>,</h2>
-    <p>Terimakasih telah menjadi Peserta Webinar IITC 2020!<br>
+    <p>Terimakasih telah menjadi Peserta Seminar IITC 2020!<br>
     Berikut rincian pendaftaran Anda.</p><br>
     <table>
         <tr>
