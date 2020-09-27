@@ -57,8 +57,8 @@ $route['login'] = 'App_view/login';
 $route['login/loginprocess'] = 'App_view/loginProcess';
 $route['logout'] = 'App_view/logout';
 $route['timeline'] = 'App_view/timeline';
-$route['register'] = 'App_view/reg_close';//'App_view/register';
-$route['register/registerprocess'] = 'App_view/reg_close';//'App_view/registerProcess';
+$route['register'] = 'App_view/register';//'App_view/register' & App_view/reg_close;
+$route['register/registerprocess'] = 'App_view/registerProcess';//'App_view/registerProcess' & App_view/reg_close;
 $route['daftar'] = 'App_view/step';
 $route['seminar/register'] = 'App_view/reg_seminar';
 $route['seminar/register/send'] = 'App_view/regnow_seminar';
@@ -74,4 +74,3 @@ $route['user/dashboard'] = 'App_view/dash';
 $route['detail'] = 'App_view/detailLomba';
 $route['lupa_password'] = 'App_view/lupaPassword';
 $route['lupa_password/process'] = 'App_view/lupaPasswordProcess';
-

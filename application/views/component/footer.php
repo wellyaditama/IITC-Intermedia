@@ -1,4 +1,4 @@
-          <footer class="krypton-footer">
+<footer class="krypton-footer">
             <div class="container">
                 <!-- Logo -->
                 <div class="footer-logo">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <!-- Copyright -->
-                <p class="k-copyright">© <?php echo date("Y"); ?> | IITC. All Rights Reserved | <a href="<?=base_url()?>admin/home/login" target="_blank">Admin</a></p>
+                <p class="k-copyright">© <?php echo date("Y"); ?>  IITC | All Rights Reserved <!-- <a href="<?=base_url()?>admin/home/login" target="_blank">Admin</a></p> -->
                 <br>
                 <!-- Made by -->
                 <p class="coded-by">Designed and Coded by <a href="https://intermediaamikom.org">Intermedia</a></p>
@@ -66,4 +66,3 @@
 			<img class="solar-system" src="<?= base_url()?>assets/app/images/bg/solar.svg" alt="">
 			
         </footer>        <!-- Core js -->
-       

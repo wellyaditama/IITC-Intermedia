@@ -1,10 +1,10 @@
 <html>
 <head>
-    <title>Selamat, Anda Berhasil Menjadi Peserta Seminar UI/UX!</title>
+    <title>Selamat, Anda Berhasil Menjadi Peserta Seminar IITC 2020!</title>
 </head>
 <body>
     <h2>Dear <?= $nama; ?>,</h2>
-    <p>Terimakasih telah menjadi Peserta Seminar UI/UX di Intermedia Information Technology Festival (IITF) 2019!<br>
+    <p>Terimakasih telah menjadi Peserta Seminar IITC 2020!<br>
     Berikut rincian pendaftaran Anda.</p><br>
     <table>
         <tr>

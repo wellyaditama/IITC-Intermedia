@@ -1,3 +1,2 @@
-# iitc_intermedia
- Website untuk IITC Intermedia 2020.
- 
+# iitf_intermedia
+ Website untuk IITF Intermedia 2019 nanti

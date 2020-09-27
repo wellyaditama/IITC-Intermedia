@@ -9,8 +9,8 @@
     <div class="column is-8 containerr">
       <h1 class="title">Pembayaran</h1>
       <h2 class="subtitle">
-        <p>Silakan lakukan pembayaran sesuai dengan data di bawah ini, lalu unggahlah bukti transfernya disini. 
-          Tunggu 1 * 24 Jam untuk konfirmasi aktif dari admin. Apabila sudah aktif maka anda dapat lanjut step selanjutnya.</p>
+        <p>Silahkan lakukan pembayaran sesuai dengan data di bawah ini, lalu unggahlah bukti transfernya di sini. 
+          Tunggu 1 * 24 Jam untuk konfirmasi aktif dari admin. Apabila sudah aktif maka anda dapat melanjutkan ke step selanjutnya.</p>
       </h2>
       <!-- <div class="column"> -->
       <div class="notification">
@@ -61,33 +61,37 @@
             </tr>
           </table>
         </div>
-        <div class="column is-6">
-          <table class="table is-stripped">
+      </div>
+       <div>
+          <table  class="table is-stripped">
             <tr>
-              <th colspan="2">Transfer ke:</td>
+              <th colspan="5">Transfer ke:</th>
             </tr>
             <tr>
-              <td>Nama Bank</th>
-              <td>002 - Bank Rakyat Indonesia (BRI)</td>
+              <td colspan="2"><b>Nama Bank / E-wallet</b></th>
+              <td ><b>Nomor Rekening</b></td>
+              <td><b>Atas Nama</b></td>
             </tr>
             <tr>
-              <td>Atas Nama</th>
-              <td>Rahmat Hidayat Fitrianto</td>
+              <td colspan="2"><b>BANK BRI</b></th>
+              <td>007701106263501</td>
+              <td>AZIZ AFIAN NAGITA</td>
             </tr>
             <tr>
-              <td>Nomor Rekening</th>
-              <td>0077 - 01 - 100172 - 50 - 8</td>
+              <td colspan="2"><b>JENIUS / BTPN</b></th>
+              <td>90230052409</td>
+              <td>MOHAMAD SYAHRI NURROCHIM</td>
             </tr>
-            <tr>
-              <td></td>
-              <td></td>
+             <tr>
+              <td colspan="2"><b>OVO</b></th>
+              <td>082314736799</td>
+              <td>DWI SUGIANTO</td>
             </tr>
           </table>
         </div>
-      </div>
       <div id="progress"></div>
       <div class="field">
-        <label class="label">Bukti Transfer (ekstensi diterima: JPG, JPEG, PNG; Batas maksimum: 1 MB)</label>
+        <label class="label">Bukti Transfer (ekstensi diterima: JPG, JPEG, PNG; Batas maksimum: 5 MB)</label>
         <form action="javascript:trySaveBayar('<?= base_url(); ?>');" method="POST" enctype="multipart/form-data">
           <div class="field is-grouped">
             <div class="file is-boxed is-success has-name">
@@ -125,20 +129,20 @@
 				<div class="columns">
 					<div class="column">
 						<br>
-						<a href="#" >
-						<i class="fab fa-whatsapp" style="color:black"></i>
-						<p style="color:black">WhatsApp</p>
+						<a href="http://intermediaamikom.org" >
+						<i class="fa fa-globe" style="color:black"></i>
+						<p style="color:black">UKM Intermedia</p>
 						</a>
 					</div>
 					<div class="column is-4">
-						<a href="#">
+						<a href="">
 						<img style="width:30%;" src="<?= base_url() ?>assets/app/images/logo/logo.png" alt="">
-						<p style="color:black">IITF 2019</p>
+						<p style="color:black">IITC 2020</p>
 						</a>
 					</div>
 					<div class="column">
 						<br>
-						<a href="#">
+						<a href="https://www.instagram.com/iitc_intermedia">
 						<i class="fab fa-instagram" style="color:black"></i>
 						<p style="color:black">Instagram</p>
 						</a>

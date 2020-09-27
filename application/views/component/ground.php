@@ -1,4 +1,4 @@
-        <!-- modal -->
+<!-- modal -->
         <div id="whatsapp" class="modal">
             <div class="modal-background"></div>
             <div class="modal-content">
@@ -14,10 +14,10 @@
                         </div>
 
                     <div class="content">
-                    Untuk informasi lebih lanjut dan pertannyaan, hubungi:<br><br>
+                    Untuk pertanyaan dan informasi lebih lanjut, hubungi:<br><br>
                     <table>
-                        <tr><td>Fina Erviana</td><td><a href="https://api.whatsapp.com/send?phone=6282211538043" target="_blank">0822-1153-8043</a></td><td><a href="tel:+6282211538043" class="button is-primary"><i class="fas fa-phone"></i></a></td></tr>
-                        <tr><td>Meilia</td><td><a href="https://api.whatsapp.com/send?phone=6282328691559" target="_blank">0823-2869-1559</a></td><td><a href="tel:+6282328691559" class="button is-primary"><i class="fas fa-phone"></i></a></td></tr>
+                        <tr><td>Fina Erviana</td><td><a href="https://api.whatsapp.com/send?phone=6282311471826" target="_blank">0823-1147-1826</a></td><td><a href="tel:+6282311471826" class="button is-primary"><i class="fas fa-phone"></i></a></td></tr>
+                        <tr><td>Meilia</td><td><a href="https://api.whatsapp.com/send?phone=6285726467006" target="_blank">0857-2646-7006</a></td><td><a href="tel:+6285726467006" class="button is-primary"><i class="fas fa-phone"></i></a></td></tr>
                     </table>
                     <span class="text">
                     Klik nomor diatas untuk menghubungi via WhatsApp, atau klik <a class="button is-primary is-small"><i class="fas fa-phone "></i></a> untuk memanggil/menyimpan kontak.

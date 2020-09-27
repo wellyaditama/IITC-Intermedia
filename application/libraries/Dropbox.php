@@ -8,7 +8,8 @@ class Dropbox
     // Library written by DwiChan0905
 
     // Access Token didapat dari console Dropbox: https://www.dropbox.com/developers
-    private $token = 'XIdehloNGvAAAAAAAAAAGPPZ7-_ZqU7GtvSaPjgY6j91rY77g5-SwbMcgxRXQROd';
+    // private $token = 'XIdehloNGvAAAAAAAAAAGPPZ7-_ZqU7GtvSaPjgY6j91rY77g5-SwbMcgxRXQROd'; // old version
+    private $token = "y9HvWMYJtk0AAAAAAAAAAfptFIQJXI7Uuqkizk7YBMA0lyotTDtyeW1oUbu466TE";
 
     public function __construct()
     {

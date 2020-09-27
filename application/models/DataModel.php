@@ -20,45 +20,41 @@ class DataModel extends CI_Model
     }
 
     // Ada bug, dimana semua jadwal harus dikurangi 1 agar akurat
-    function getPSOpen() {
-        return strtotime("2019-09-12 00:00:00");
+    function getPSOpen() { // presale
+        return strtotime("2020-10-10 23:59:59");
     }
 
-    function getPSClose() {
-        return strtotime("2019-09-21 23:59:59");
+    function getPSClose() { // presale close
+        return strtotime("2020-10-10 23:59:59");
     }
 
-    function getSOpen()
-    {
-        return strtotime("2019-09-22 00:00:00");
+    function getSOpen() { // sale
+        return strtotime("2020-10-10 23:59:59");
     }
 
-    function getSClose()
-    {
-        return strtotime("2019-10-11 23:59:59");
+    function getSClose() { // sale close
+        return strtotime("2020-10-10 23:59:59");
     }
 
-    function getOTSOpen()
-    {
-        return strtotime("2019-10-12 00:00:00");
+    function getOTSOpen() { // ots
+        return strtotime("2020-10-10 23:59:59");
     }
-    function getOTSClose()
-    {
-        return strtotime("2019-10-14 23:59:59");
+    function getOTSClose() { // ots close
+        return strtotime("2020-10-10 23:59:59");
     }
     // bug over
 
     function getHTMPrice() {
         $htm = 0;
         switch ($this->getHTS()) {
-            case 'presale':
-                $htm = 30000;
+            case 'free':
+                $htm = 0;
                 break;
-            case 'sale':
-                $htm = 35000;
+            case 'free':
+                $htm = 0;
                 break;
-            case 'ots':
-                $htm = 40000;
+            case 'free':
+                $htm = 0;
                 break;
             default:
                 $htm = 0;
@@ -81,28 +77,32 @@ class DataModel extends CI_Model
         $getDiffpsclose = ( strtotime(date("Y/m/d H:i:s")) - $psaleclose ) / 60 / 60 / 24;
         //echo $getDiffAwal;
         if (($getDiffpsopen > 0) && ($getDiffpsclose <= 0)) {
-            $hts = "null";
+            $hts = "free";
         } else if (($getDiffpsopen <= 0) && ($getDiffpsclose <= 0)) {
-            $hts = "presale";
+            // $hts = "presale";
+            $hts = "free";
         } else if ($getDiffpsclose > 0) {
             $getDiffsopen = ( $saleopen - strtotime(date("Y/m/d H:i:s")) ) / 60 / 60 / 24;
             $getDiffsclose = ( strtotime(date("Y/m/d H:i:s")) - $saleclose ) / 60 / 60 / 24;
             //echo $getDiffAwal;
             if (($getDiffsopen > 0) && ($getDiffsclose <= 0)) {
-                $hts = "sale";
+                // $hts = "sale";
+                $hts = "free";
             } else if (($getDiffsopen <= 0) && ($getDiffsclose <= 0)) {
-                $hts = "sale";
+                // $hts = "sale";
+                $hts = "free";
             } else if ($getDiffsclose > 0) {
                 $getDiffopen = ( $otsopen - strtotime(date("Y/m/d H:i:s")) ) / 60 / 60 / 24;
                 $getDiffclose = ( strtotime(date("Y/m/d H:i:s")) - $otsclose ) / 60 / 60 / 24;
                 //echo $getDiffAwal;
                 if (($getDiffopen > 0) && ($getDiffclose <= 0)) {
-                    $hts = "sale";
+                    // $hts = "sale";
+                    $hts = "free";
                 } else if (($getDiffopen <= 0) && ($getDiffclose <= 0)) {
-                    $hts = "ots";
+                    // $hts = "ots";
+                    $hts = "free";
                 } else if ($getDiffclose > 0) {
-                    //teuing, aing lieur
-                    $hts = "null";
+                    $hts = "free";
                 }
             }
         }

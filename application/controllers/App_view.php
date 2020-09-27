@@ -143,14 +143,14 @@ class App_view extends CI_Controller
         $this->db->where('htm_status', $htm);
         $query = $this->db->get();
         $num = $query->num_rows();
-        if ($num < 75) { // Kuota Anggota
+        if ($num < 15) { // Kuota Anggota
             $code = $this->DataModel->noDaf();
 
-            $nama = $this->input->post('nama');
-            $email = $this->input->post('email');
-            $alamat = $this->input->post('alamat');
-            $nohp = $this->input->post('notelp');
-            $asal = $this->input->post('asal');
+            $nama   = $this->db->escape_str($this->input->post('nama', true));
+            $email  = $this->db->escape_str($this->input->post('email', true));
+            $alamat = $this->db->escape_str($this->input->post('alamat', true));
+            $nohp   = $this->db->escape_str($this->input->post('notelp', true));
+            $asal   = $this->db->escape_str($this->input->post('asal', true));
             
             $this->form_validation->set_rules('nama', 'Nama Lengkap', 'trim|required|min_length[5]|max_length[50]');
             $this->form_validation->set_rules('email', 'Email', 'valid_email|required|min_length[5]|max_length[50]');
@@ -218,16 +218,15 @@ class App_view extends CI_Controller
                                     ->get();
                 if ($eCheck->num_rows() == 0) {
                     $config = array(
-                        'protocol' => 'smtp',
-                        'smtp_host' => 'smtp.gmail.com',
-                        'smtp_crypto' => 'tls',
-                        'smtp_port' => '587',
-                        
-                        'smtp_user' => 'iitfintermedia@gmail.com', // informasi rahasia ini jangan di gunakan sembarangan
-                        'smtp_pass' => 'intermediaiitf2019', // informasi rahasia ini jangan di gunakan sembarangan
-                        'mailtype' => 'html',
-                        'charset' => 'iso-8859-1',
-                        'wordwrap' => TRUE
+                        'protocol' 		=> 'smtp',
+                        'smtp_host' 	=> 'ssl://smtp.googlemail.com',
+                        // 'smtp_crypto' => 'tls',
+                        'smtp_port' 	=> 465,
+                        'smtp_user' 	=> 'ayoberalih4995@gmail.com', // informasi rahasia ini jangan di gunakan sembarangan
+                        'smtp_pass' 	=> 'VafkMbCE7p8FtXq', // informasi rahasia ini jangan di gunakan sembarangan
+                        'mailtype'      => 'html',
+                        'charset'       => 'iso-8859-1',
+                        'wordwrap'      => TRUE
                     );
             
                     $data['id_daf'] = $code;
@@ -242,7 +241,7 @@ class App_view extends CI_Controller
                     $this->email->set_newline("\r\n");
                     $this->email->from($config['smtp_user']);
                     $this->email->to($email);
-                    $this->email->subject('Konfirmasi Pembayaran acara Seminar UI/UX IITF 2019');
+                    $this->email->subject('Pemberitahuan acara Webinar IITC 2020');
                     $this->email->message($message);
             
                     $this->email->send();
@@ -253,7 +252,7 @@ class App_view extends CI_Controller
                         "email" => $email,
                         "notelp" => $nohp,
                         "institusi" => $asal,
-                        "status_bayar" => FALSE,
+                        "status_bayar" => TRUE, // karena gratis auto true
                         "status_ulang" => FALSE,
                         "htm_status" => $htm
                     ));
@@ -303,7 +302,7 @@ class App_view extends CI_Controller
         if ($check->num_rows() !== 0) {
             redirect('user');
         }
-        $payload['judul'] = "PESERTA SEMINAR";
+        $payload['judul'] = "PESERTA WEBINAR";
         $payload['link'] = ($this->session->userdata('email') == "" ? base_url('login') : base_url('user'));
         $payload['email'] = ($this->session->userdata('email') == "" ? "" : "LANJUTKAN DAFTAR: " . $this->session->userdata('email'));
         $payload['page'] = "reg_seminar";
@@ -354,7 +353,7 @@ class App_view extends CI_Controller
             if ($result->status != "true") {
                 echo  json_encode(array(
                     "success" => false,
-                    "msg" => "Anda belum memverifikasi akun, Silahkan cek email anda."
+                    "msg" => "Anda belum memverifikasi akun, Silahkan cek email anda di SPAM atau PROMOSI."
                 ));
             } else {
                 if ($this->bcrypt->check_password($pass, $result->password)) {
@@ -556,7 +555,7 @@ class App_view extends CI_Controller
                         swal.close();
                         swal(
                         \"Berhasil\",
-                        \"Selamat $nama, Anda berhasil mendaftarkan diri ke Perlombaan IITF 2019! Silahkan cek email untuk aktivasi akun\",
+                        \"Selamat $nama, Anda berhasil mendaftarkan diri ke Perlombaan IITC 2020! Silahkan cek email untuk aktivasi akun di SPAM atau PROMOSI\",
                         {icon:\"success\"}
                         ).then(ok => {
                         window.location.replace(\"$uri\");
@@ -588,12 +587,13 @@ class App_view extends CI_Controller
     private function send_verification($id, $email, $code)
     {
         $config = array(
-            'protocol' => 'smtp',
-            'smtp_host' => 'smtp.googlemail.com',
-            'smtp_port' => '587',
-            'smtp_user' => 'iitfintermedia@gmail.com', // informasi rahasia ini jangan di gunakan sembarangan
-            'smtp_pass' => 'intermediaiitf2019', // informasi rahasia ini jangan di gunakan sembarangan
+            'protocol' => 'mail',
+            'smtp_host' => 'mail.intermediaamikom.org',
             'smtp_crypto' => 'tls',
+            'smtp_port' => '587',
+            
+            'smtp_user' => 'iitc@intermediaamikom.org', // informasi rahasia ini jangan di gunakan sembarangan
+            'smtp_pass' => 'Wearefamily2018', // informasi rahasia ini jangan di gunakan sembarangan
             'mailtype' => 'html',
             'charset' => 'iso-8859-1',
             'wordwrap' => TRUE
@@ -775,7 +775,7 @@ class App_view extends CI_Controller
         $config['allowed_types'] = 'pdf|doc|docx';
         $config['file_name'] = $name;
         $config['overwrite'] = true;
-        $config['max_size'] = 1024;
+        $config['max_size'] = 2048;
         $this->upload->initialize($config);
     }
 
@@ -801,7 +801,7 @@ class App_view extends CI_Controller
         $config['allowed_types'] = 'jpg|jpeg|png';
         $config['file_name'] = $name;
         $config['overwrite'] = true;
-        $config['max_size'] = 1024;
+        $config['max_size'] = 5120;
         $this->upload->initialize($config);
     }
 
@@ -814,7 +814,7 @@ class App_view extends CI_Controller
         $config['allowed_types'] = 'zip|rar';
         $config['file_name'] = $name;
         $config['overwrite'] = true;
-        $config['max_size'] = 10480;
+        $config['max_size'] = 51200;
         $this->upload->initialize($config);
     }
 
@@ -1496,13 +1496,13 @@ class App_view extends CI_Controller
     private function send_reset_pass($id, $email, $token)
     {
         $config = array(
-            'protocol' => 'smtp',
-            'smtp_host' => 'smtp.gmail.com',
-                            'smtp_crypto' => 'tls',
-                            'smtp_port' => '587',
+            'protocol' => 'mail',
+            'smtp_host' => 'mail.intermediaamikom.org',
+            'smtp_crypto' => 'tls',
+            'smtp_port' => '587',
             
-            'smtp_user' => 'iitfintermedia@gmail.com', // informasi rahasia ini jangan di gunakan sembarangan
-            'smtp_pass' => 'intermediaiitf2019', // informasi rahasia ini jangan di gunakan sembarangan
+            'smtp_user' => 'iitc@intermediaamikom.org', // informasi rahasia ini jangan di gunakan sembarangan
+            'smtp_pass' => 'Wearefamily2018', // informasi rahasia ini jangan di gunakan sembarangan
             'mailtype' => 'html',
             'charset' => 'iso-8859-1',
             'wordwrap' => TRUE

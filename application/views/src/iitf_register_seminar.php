@@ -59,7 +59,7 @@ transform: scale(1.0);
 
                 <!-- Landing page Title -->
                 <div class="column is-half-desktop is-full-mobile landing-caption">
-                    <h1 class="title is-3 is-semibold is-spaced main-title has-text-centered">Pendaftaran<br>Peserta Webinar</h1>
+                    <h1 class="title is-3 is-semibold is-spaced main-title has-text-centered">Pendaftaran<br>Peserta Seminar IITC</h1>
                     <br><br>
                     <form class="login-form" action="javascript:tryRegisterSeminar('<?= base_url(); ?>');">
                         <div class="field">
@@ -120,19 +120,19 @@ transform: scale(1.0);
                         <ul id="countdown" class="is-ico">
                             <li id="days">
                                 <div class="timer-number2">00</div>
-                                <div class="label">Days</div>
+                                <div class="label">Hari</div>
                             </li>
                             <li id="hours">
                                 <div class="timer-number2">00</div>
-                                <div class="label">Hours</div>
+                                <div class="label">Jam</div>
                             </li>
                             <li id="minutes">
                                 <div class="timer-number2">00</div>
-                                <div class="label">Minutes</div>
+                                <div class="label">Menit</div>
                             </li>
                             <li id="seconds">
                                 <div class="timer-number2">00</div>
-                                <div class="label">Seconds</div>
+                                <div class="label">Detik</div>
                             </li>
                         </ul>
                         <!-- Progress bar 
@@ -167,4 +167,3 @@ transform: scale(1.0);
 </section>
 <!-- /Landing page Hero -->
 <!-- Core js -->
-
